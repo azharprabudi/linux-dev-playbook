@@ -1,0 +1,15 @@
+---
+- hosts: local
+  gather_facts: true
+  name: Pre tasks before execute the ansible modules
+  roles:
+    - name: Install python3
+      role: ericsysmin.python3
+      vars:
+        python3_default_user: true
+    - name: Install pip-python
+      role: geerlingguy.pip
+
+- hosts: local
+  name: Install tools or softwares which support our job
+  roles: []
