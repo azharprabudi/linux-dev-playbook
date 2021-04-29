@@ -3,4 +3,6 @@ roles:
   - name: ericsysmin.python3
   - name: geerlingguy.pip
   - name: markosamuli.asdf
-  - name: grog.package
+  - name: geerlingguy.git
+collections:
+  - name: ericsysmin.docker

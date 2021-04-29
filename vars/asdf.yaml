@@ -1,0 +1,56 @@
+---
+asdf_init_shell: false
+asdf_version: v0.8.0
+asdf_plugins:
+  - name: terraform
+    versions:
+      - "0.15.1"
+    global: "0.15.1"
+  - name: gcloud
+    versions:
+      - "338.0.0"
+    global: "338.0.0"
+  - name: nodejs
+    versions:
+      - "14.16.1"
+    global: "14.16.1"
+  - name: golang
+    versions:
+      - "1.13.12"
+    global: "1.13.12"
+  - name: ko
+    versions:
+      - "0.8.2"
+    global: "0.8.2"
+  - name: kubectl
+    versions:
+      - "v0.21.0"
+    global: "v0.21.0"
+  - name: kubectx
+    versions:
+      - "0.9.3"
+    global: "0.9.3"
+  - name: tmux
+    versions:
+      - "3.2"
+    global: "3.2"
+  - name: yq
+    versions:
+      - "v4.7.1"
+    global: "v4.7.1"
+  - name: fzf
+    versions:
+      - "0.27.0"
+    global: "0.27.0"
+  - name: yarn
+    versions:
+      - "1.22.10"
+    global: "1.22.10"
+  - name: k9s
+    versions:
+      - "0.24.7"
+    global: "0.24.7"
+  - name: jsonnet
+    versions:
+      - "0.17.0"
+    global: "0.17.0"

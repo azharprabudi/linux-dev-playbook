@@ -2,14 +2,30 @@
 - hosts: local
   gather_facts: true
   name: Pre tasks before execute the ansible modules
+  vars_files:
+    - vars/python3.yaml
   roles:
     - name: Install python3
       role: ericsysmin.python3
       vars:
-        python3_default_user: true
     - name: Install pip-python
       role: geerlingguy.pip
 
 - hosts: local
+  name: Update dependencies
+  tasks:
+    - name: Update asdf to latest stable version
+      command: |
+        /root/.asdf/bin/asdf update
+
+- hosts: local
   name: Install tools or softwares which support our job
-  roles: []
+  vars_files:
+    - vars/asdf.yaml
+  roles:
+    - name: Install git
+      role: geerlingguy.git
+    - name: Install docker
+      role: ericsysmin.docker.docker
+    - name: Install asdf plugins
+      role: markosamuli.asdf
