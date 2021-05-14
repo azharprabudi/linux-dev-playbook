@@ -7,25 +7,24 @@
   roles:
     - name: Install python3
       role: ericsysmin.python3
-      vars:
     - name: Install pip-python
       role: geerlingguy.pip
-
-- hosts: local
-  name: Update dependencies
-  tasks:
-    - name: Update asdf to latest stable version
-      command: |
-        /root/.asdf/bin/asdf update
 
 - hosts: local
   name: Install tools or softwares which support our job
   vars_files:
     - vars/asdf.yaml
+    - vars/brew.yaml
   roles:
     - name: Install git
       role: geerlingguy.git
     - name: Install docker
       role: ericsysmin.docker.docker
+    - name: Install ruby
+      role: geerlingguy.ruby
+    # - name: Install homebrew
+    #   role: homebrew
     - name: Install asdf plugins
       role: markosamuli.asdf
+    # - name: Install brew plugins
+    #   role: grog.package

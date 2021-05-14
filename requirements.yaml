@@ -4,5 +4,7 @@ roles:
   - name: geerlingguy.pip
   - name: markosamuli.asdf
   - name: geerlingguy.git
+  - name: geerlingguy.ruby
 collections:
   - name: ericsysmin.docker
+  - name: community.general

@@ -1,0 +1,14 @@
+---
+package_list:
+  - name: jq
+    brew: jq
+  - name: docker-compose
+    brew: docker-compose
+  - name: neovim
+    brew: neovim
+  - name: termshark
+    brew: termshark
+  - name: pgcli
+    brew: pgcli
+  - name: kustomize
+    brew: kustomize
