@@ -15,3 +15,4 @@ asdf_plugins:
   - name: yarn
   - name: k9s
   - name: jsonnet
+  - name: neovim

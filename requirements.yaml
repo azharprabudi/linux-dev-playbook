@@ -5,6 +5,8 @@ roles:
   - name: markosamuli.asdf
   - name: geerlingguy.git
   - name: geerlingguy.ruby
+  - name: geerlingguy.dotfiles
+  - name: gantsign.oh-my-zsh
 collections:
   - name: ericsysmin.docker
   - name: community.general

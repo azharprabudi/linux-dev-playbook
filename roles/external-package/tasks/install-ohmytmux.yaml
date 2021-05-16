@@ -1,0 +1,22 @@
+---
+- name: Create directory ohmytmux
+  file:
+    state: directory
+    path: /opt/ohmytmux
+    mode: "0755"
+
+- name: Clone ohmytmux repository
+  git:
+    repo: "https://github.com/gpakosz/.tmux.git"
+    dest: /opt/ohmytmux
+
+- name: Soft link ohmytmux
+  file:
+    state: link
+    src: /opt/ohmytmux/.tmux
+    path: "~/.tmux"
+
+- name: Copy tmux conf local into homedir
+  copy:
+    src: "~/.tmux/.tmux.conf.local"
+    dest: "~"

@@ -1,0 +1,13 @@
+---
+dotfiles_repo: "https://github.com/azharprabudi/dotfiles.git"
+dotfiles_repo_version: master
+dotfiles_home: "~"
+dotfiles_files: 
+  - .tmuxinator
+  - nvim
+  - themes
+  - .gitconfig
+  - .tmux.conf
+  - .tmux.conf.local
+  - .vimrc
+  - .zshrc

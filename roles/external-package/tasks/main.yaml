@@ -1,0 +1,4 @@
+---
+- import_tasks: install-powerline-fonts.yaml
+- import_tasks: install-nerd-fonts.yaml
+- import_tasks: install-vim-plug.yaml
