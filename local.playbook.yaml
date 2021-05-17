@@ -1,16 +1,17 @@
 ---
-- hosts: local
+- hosts: all
   gather_facts: true
   name: Pre tasks before execute the ansible modules
   vars_files:
     - vars/python3.yaml
+    - vars/pip.yaml
   roles:
     - name: Install python3
       role: ericsysmin.python3
     - name: Install pip-python
       role: geerlingguy.pip
 
-- hosts: local
+- hosts: all
   name: Install external package
   vars_files:
     - vars/dotfiles.yaml
@@ -20,7 +21,7 @@
       - name: gantsign.oh-my-zsh
       - name: geerlingguy.dotfiles
 
-- hosts: local
+- hosts: all
   name: Install tools or softwares which support our job
   vars_files:
     - vars/asdf.yaml

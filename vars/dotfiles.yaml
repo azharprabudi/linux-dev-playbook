@@ -4,7 +4,7 @@ dotfiles_repo_version: master
 dotfiles_home: "~"
 dotfiles_files: 
   - .tmuxinator
-  - nvim
+  - .config
   - themes
   - .gitconfig
   - .tmux.conf

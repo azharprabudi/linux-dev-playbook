@@ -6,6 +6,7 @@
     mode: "0755"
 
 - name: Clone ohmytmux repository
+  become: yes
   git:
     repo: "https://github.com/gpakosz/.tmux.git"
     dest: /opt/ohmytmux
