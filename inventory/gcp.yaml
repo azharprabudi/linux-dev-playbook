@@ -1,0 +1,7 @@
+plugin: gcp_compute
+projects:
+  - fleet-bongo-307513
+auth_kind: application
+regions:
+  - asia-southeast2
+
