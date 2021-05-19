@@ -1,6 +1,5 @@
 ---
 - hosts: all
-  gather_facts: true
   name: Pre tasks before execute the ansible modules
   vars_files:
     - vars/python3.yaml
