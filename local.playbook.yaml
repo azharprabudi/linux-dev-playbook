@@ -20,17 +20,8 @@
   roles:
       - name: Install oh-myz-sh
         role: gantsign.oh-my-zsh
-        become: yes
       - name: Install external packages
         role: external-package
       - name: Install dotfiles
         role: geerlingguy.dotfiles
-     
-- hosts: all
-  name: Install tools or softwares which support our job
-  vars_files:
-    - vars/asdf.yaml
-    - vars/brew.yaml
-  roles:
-    - name: Install asdf plugins
-      role: markosamuli.asdf
+ 
