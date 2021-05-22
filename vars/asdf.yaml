@@ -7,7 +7,6 @@ asdf_plugins:
   - name: ko
   - name: kubectl
   - name: kubectx
-  - name: tmux
   - name: yq
   - name: fzf
   - name: yarn
