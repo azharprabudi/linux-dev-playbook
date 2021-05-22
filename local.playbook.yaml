@@ -10,6 +10,7 @@
       become: yes
     - name: Install pip-python
       role: geerlingguy.pip
+      become: yes
 
 - hosts: all
   name: Install external package
