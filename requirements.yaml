@@ -3,11 +3,8 @@ roles:
   - name: ericsysmin.python3
   - name: geerlingguy.pip
   - name: markosamuli.asdf
-  - name: geerlingguy.git
-  - name: geerlingguy.ruby
   - name: geerlingguy.dotfiles
   - name: gantsign.oh-my-zsh
-  - name: geerlingguy.ansible-role-homebrew
 collections:
   - name: ericsysmin.docker
   - name: community.general
