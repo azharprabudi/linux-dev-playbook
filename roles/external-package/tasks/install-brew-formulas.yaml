@@ -2,6 +2,10 @@
 - name: Update home brew formulas
   community.general.homebrew:
     update_homebrew: yes
+- name: Install asdf
+  community.general.homebrew:
+    name: asdf
+    state: present
 - name: Install termshark
   community.general.homebrew:
     name: termshark
