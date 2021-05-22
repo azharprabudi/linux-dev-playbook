@@ -26,4 +26,12 @@
   community.general.homebrew:
     name: kustomize
     state: present
+- name: Install tmux
+  community.general.homebrew:
+    name: tmux
+    state: present
+- name: Install tmuxinator
+  community.general.homebrew:
+    name: tmuxinator
+    state: present
 
