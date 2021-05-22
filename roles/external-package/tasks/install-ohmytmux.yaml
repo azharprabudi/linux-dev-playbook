@@ -1,5 +1,6 @@
 ---
 - name: Create directory ohmytmux
+  become: yes
   file:
     state: directory
     path: /opt/ohmytmux
