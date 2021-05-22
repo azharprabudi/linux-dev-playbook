@@ -2,3 +2,4 @@
 - import_tasks: install-powerline-fonts.yaml
 - import_tasks: install-nerd-fonts.yaml
 - import_tasks: install-ohmytmux.yaml
+- import_tasks: install-brew-formulas.yaml
