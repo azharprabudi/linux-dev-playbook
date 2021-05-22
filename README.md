@@ -4,7 +4,7 @@
 1. Git
 2. Linux brew
 
-``<pre>
+<pre>
 # Install dependencies
 ansible-galaxy install -r requirements.yaml
 ansible-galaxy collection install -r requirements.yaml
