@@ -20,11 +20,11 @@
   roles:
       - name: Install oh-myz-sh
         role: gantsign.oh-my-zsh
-      - name: Install dotfiles
-        role: geerlingguy.dotfiles
       - name: Install external packages
         role: external-package
-
+      - name: Install dotfiles
+        role: geerlingguy.dotfiles
+     
 - hosts: all
   name: Install tools or softwares which support our job
   vars_files:
