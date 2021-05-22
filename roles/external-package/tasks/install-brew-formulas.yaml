@@ -32,7 +32,7 @@
     state: present
 - name: Install visual-studio-code
   community.general.homebrew:
-    name: homebrew/cask/ visual-studio-code
+    name: homebrew/cask/visual-studio-code
     state: present
 - name: Install zoom
   community.general.homebrew:
