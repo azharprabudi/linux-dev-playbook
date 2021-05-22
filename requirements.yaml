@@ -7,6 +7,7 @@ roles:
   - name: geerlingguy.ruby
   - name: geerlingguy.dotfiles
   - name: gantsign.oh-my-zsh
+  - name: geerlingguy.ansible-role-homebrew
 collections:
   - name: ericsysmin.docker
   - name: community.general
