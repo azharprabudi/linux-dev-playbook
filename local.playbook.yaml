@@ -20,6 +20,7 @@
   roles:
       - name: Install oh-myz-sh
         role: gantsign.oh-my-zsh
+        become: yes
       - name: Install external packages
         role: external-package
       - name: Install dotfiles
