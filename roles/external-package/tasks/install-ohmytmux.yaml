@@ -13,12 +13,14 @@
     dest: /opt/ohmytmux
 
 - name: Soft link ohmytmux
+  become: yes
   file:
     state: link
     src: /opt/ohmytmux/.tmux
     path: "~/.tmux"
 
 - name: Copy tmux conf local into homedir
+  become: yes
   copy:
     src: "~/.tmux/.tmux.conf.local"
     dest: "~"
