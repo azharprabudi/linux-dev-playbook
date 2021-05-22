@@ -4,8 +4,6 @@ asdf_version: v0.8.0
 asdf_plugins:
   - name: terraform
   - name: gcloud
-  - name: nodejs
-  - name: golang
   - name: ko
   - name: kubectl
   - name: kubectx
