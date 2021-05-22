@@ -26,32 +26,4 @@
   community.general.homebrew:
     name: kustomize
     state: present
-- name: Install slack
-  community.general.homebrew:
-    name: homebrew/cask/slack
-    state: present
-- name: Install docker
-  community.general.homebrew:
-    name: homebrew/cask/docker
-    state: present
-- name: Install visual-studio-code
-  community.general.homebrew:
-    name: homebrew/cask/visual-studio-code
-    state: present
-- name: Install zoom
-  community.general.homebrew:
-    name: homebrew/cask/zoom
-    state: present
-- name: Install alacritty
-  community.general.homebrew:
-    name: homebrew/cask/alacritty
-    state: present
-- name: Install dbeaver-community
-  community.general.homebrew:
-    name: homebrew/cask/dbeaver-community
-    state: present
-- name: Install calibre
-  community.general.homebrew:
-    name: homebrew/cask/calibre
-    state: present
-    
+
