@@ -2,3 +2,4 @@
 pip_install_packages:
   - name: requests
   - name: google-auth
+  - name: ansible
