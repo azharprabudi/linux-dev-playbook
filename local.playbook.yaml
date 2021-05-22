@@ -20,6 +20,7 @@
   roles:
       - name: gantsign.oh-my-zsh
       - name: geerlingguy.dotfiles
+      - name: external-package
 
 - hosts: all
   name: Install tools or softwares which support our job
