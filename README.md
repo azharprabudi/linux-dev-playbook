@@ -4,6 +4,7 @@
 1. Git
 2. Linux brew
 
+### Commands
 <pre>
 # Install dependencies
 ansible-galaxy install -r requirements.yaml
