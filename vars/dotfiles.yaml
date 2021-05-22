@@ -11,3 +11,4 @@ dotfiles_files:
   - .tmux.conf.local
   - .vimrc
   - .zshrc
+  - kube-ps1.sh
