@@ -1,0 +1,61 @@
+---
+- name: Update home brew formulas
+  tasks:
+    - name: Update
+      community.general.homebrew:
+        update_homebrew: yes
+     
+- name: Install home brew formulas
+  tasks:
+    - name: Install termshark
+      community.general.homebrew:
+        name: termshark
+        state: present
+    - name: Install pgcli
+      community.general.homebrew:
+        name: pgcli
+        state: present
+    - name: Install node
+      community.general.homebrew:
+        name: node
+        state: present
+    - name: Install go
+      community.general.homebrew:
+        name: go
+        state: present
+    - name: Install kustomize
+      community.general.homebrew:
+        name: kustomize
+        state: present
+
+- name: Install home brew cask formulas
+  tasks:
+    - name: Install slack
+      community.general.homebrew:
+        name: homebrew/cask/slack
+        state: present
+    - name: Install docker
+      community.general.homebrew:
+        name: homebrew/cask/docker
+        state: present
+    - name: Install visual-studio-code
+      community.general.homebrew:
+        name: homebrew/cask/ visual-studio-code
+        state: present
+    - name: Install zoom
+      community.general.homebrew:
+        name: homebrew/cask/zoom
+        state: present
+    - name: Install alacritty
+      community.general.homebrew:
+        name: homebrew/cask/alacritty
+        state: present
+    - name: Install dbeaver-community
+      community.general.homebrew:
+        name: homebrew/cask/dbeaver-community
+        state: present
+    - name: Install calibre
+      community.general.homebrew:
+        name: homebrew/cask/calibre
+        state: present
+    
