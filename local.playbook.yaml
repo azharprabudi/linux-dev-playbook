@@ -16,7 +16,6 @@
     - vars/dotfiles.yaml
     - vars/ohmyzsh.yaml
   roles:
-      - name: external-package
       - name: gantsign.oh-my-zsh
       - name: geerlingguy.dotfiles
 
@@ -26,9 +25,5 @@
     - vars/asdf.yaml
     - vars/brew.yaml
   roles:
-    - name: Install docker
-      role: ericsysmin.docker.docker
-    - name: Install ruby
-      role: geerlingguy.ruby
     - name: Install asdf plugins
       role: markosamuli.asdf
