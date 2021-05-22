@@ -86,4 +86,8 @@
   community.general.homebrew:
     name: minikube
     state: present
+- name: Install openvpn
+  community.general.homebrew:
+    name: openvpn
+    state: present
 

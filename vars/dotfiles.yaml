@@ -5,10 +5,10 @@ dotfiles_home: "~"
 dotfiles_files: 
   - .tmuxinator
   - .config
-  - themes
   - .gitconfig
   - .tmux.conf
   - .tmux.conf.local
   - .vimrc
   - .zshrc
   - kube-ps1.sh
+  - .oh-my-zsh/themes/passion.zsh-theme

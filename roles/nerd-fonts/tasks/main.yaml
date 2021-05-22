@@ -1,4 +1,0 @@
----
-- name: Install nerd-fonts
-  get_url:
-    url: https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/install.sh
