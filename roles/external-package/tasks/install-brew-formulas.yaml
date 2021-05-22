@@ -16,7 +16,7 @@
     state: present
 - name: Install node
   community.general.homebrew:
-    name: node
+    name: node@14
     state: present
 - name: Install go
   community.general.homebrew:
