@@ -38,4 +38,48 @@
   community.general.homebrew:
     name: docker-compose
     state: present
+- name: Install fzf
+  community.general.homebrew:
+    name: fzf
+    state: present
+- name: Install terraform
+  community.general.homebrew:
+    name: terraform
+    state: present
+- name: Install ko
+  community.general.homebrew:
+    name: ko
+    state: present
+- name: Install kubernetes-cli
+  community.general.homebrew:
+    name: kubernetes-cli
+    state: present
+- name: Install kubectx
+  community.general.homebrew:
+    name: kubectx
+    state: present
+- name: Install yq
+  community.general.homebrew:
+    name: yq
+    state: present
+- name: Install jq
+  community.general.homebrew:
+    name: jq
+    state: present
+- name: Install yarn
+  community.general.homebrew:
+    name: yarn
+    state: present
+- name: Install k9s
+  community.general.homebrew:
+    name: k9s
+    state: present
+- name: Install jsonnet
+  community.general.homebrew:
+    name: jsonnet
+    state: present
+- name: Install neovim
+  community.general.homebrew:
+    name: neovim
+    state: present
 
