@@ -8,9 +8,9 @@
   file:
     state: link
     src: "~/.tmux/.tmux.conf"
-    path: "~/"
+    path: "~/.tmux.conf"
 
 - name: Copy tmux conf local into homedir
   copy:
     src: "~/.tmux/.tmux.conf.local"
-    dest: "~/"
+    dest: "~/.tmux.conf.local"
