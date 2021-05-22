@@ -90,4 +90,8 @@
   community.general.homebrew:
     name: openvpn
     state: present
+- name: Install nvm
+  community.general.homebrew:
+    name: nvm
+    state: present
 
