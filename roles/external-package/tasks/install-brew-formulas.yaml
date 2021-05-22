@@ -82,4 +82,8 @@
   community.general.homebrew:
     name: neovim
     state: present
+- name: Install minikube
+  community.general.homebrew:
+    name: minikube
+    state: present
 
