@@ -26,13 +26,9 @@
     - vars/asdf.yaml
     - vars/brew.yaml
   roles:
-    - name: Install git
-      role: geerlingguy.git
     - name: Install docker
       role: ericsysmin.docker.docker
     - name: Install ruby
       role: geerlingguy.ruby
     - name: Install asdf plugins
       role: markosamuli.asdf
-    - name: Install vim-plug
-      role: vim-plug
