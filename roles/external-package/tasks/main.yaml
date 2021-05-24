@@ -3,3 +3,4 @@
 - import_tasks: install-nerd-fonts.yaml
 - import_tasks: install-ohmytmux.yaml
 - import_tasks: install-brew-formulas.yaml
+- import_tasks: install-network-manager-l2tp.yaml

@@ -1,0 +1,7 @@
+---
+- name: Install network-manager l2tp vpn
+  become: yes
+  apt:
+    name: network-manager-l2tp-gnome
+    state: present
+    update_cache: yes
