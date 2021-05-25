@@ -94,4 +94,8 @@
   community.general.homebrew:
     name: nvm
     state: present
+- name: Install kubeseal
+  community.general.homebrew:
+    name: kubeseal
+    state: present
 
