@@ -98,4 +98,8 @@
   community.general.homebrew:
     name: kubeseal
     state: present
+- name: Install argocd
+  community.general.homebrew:
+    name: argocd
+    state: present
 
