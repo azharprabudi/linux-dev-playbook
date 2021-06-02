@@ -106,4 +106,8 @@
   community.general.homebrew:
     name: gopls
     state: present
+- name: Install lazygit
+  community.general.homebrew:
+    name: lazygit
+    state: present
 
