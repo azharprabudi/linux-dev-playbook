@@ -12,3 +12,4 @@ dotfiles_files:
   - .zshrc
   - kube-ps1.sh
   - .oh-my-zsh/themes/passion.zsh-theme
+  - .alacritty.yml
