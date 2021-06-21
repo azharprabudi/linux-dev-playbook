@@ -114,5 +114,7 @@
   community.general.homebrew:
     name: rclone
     state: present
-
-
+- name: Install helm
+  community.general.homebrew:
+    name: helm
+    state: present
