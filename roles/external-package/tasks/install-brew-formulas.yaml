@@ -110,4 +110,9 @@
   community.general.homebrew:
     name: lazygit
     state: present
+- name: Install rclone
+  community.general.homebrew:
+    name: rclone
+    state: present
+
 
