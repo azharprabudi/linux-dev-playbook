@@ -4,3 +4,4 @@
 - import_tasks: install-ohmytmux.yaml
 - import_tasks: install-brew-formulas.yaml
 - import_tasks: install-network-manager-l2tp.yaml
+- import_tasks: install-apache2-utils.yaml

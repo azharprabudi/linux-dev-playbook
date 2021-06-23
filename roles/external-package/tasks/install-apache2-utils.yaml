@@ -1,0 +1,7 @@
+---
+- name: Install apache2-utils
+  become: yes
+  apt:
+    name: apache2-utils
+    state: present
+    update_cache: yes
