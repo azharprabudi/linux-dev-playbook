@@ -118,5 +118,7 @@
   community.general.homebrew:
     name: commitizen
     state: present
-
-
+- name: Install helm
+  community.general.homebrew:
+    name: helm
+    state: present
