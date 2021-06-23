@@ -114,5 +114,9 @@
   community.general.homebrew:
     name: rclone
     state: present
+- name: Install commitizen
+  community.general.homebrew:
+    name: commitizen
+    state: present
 
 
