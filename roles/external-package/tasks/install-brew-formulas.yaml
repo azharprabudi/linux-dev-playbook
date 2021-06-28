@@ -122,3 +122,7 @@
   community.general.homebrew:
     name: helm
     state: present
+- name: Install krew
+  community.general.homebrew:
+    name: krew
+    state: present
