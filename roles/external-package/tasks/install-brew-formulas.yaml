@@ -126,3 +126,7 @@
   community.general.homebrew:
     name: krew
     state: present
+- name: Install git-crypt
+  community.general.homebrew:
+    name: git-crypt
+    state: present
