@@ -130,3 +130,8 @@
   community.general.homebrew:
     name: git-crypt
     state: present
+- name: Install terraform-ls
+  community.general.homebrew:
+    name: terraform-ls
+    state: present
+
