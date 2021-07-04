@@ -114,10 +114,6 @@
   community.general.homebrew:
     name: rclone
     state: present
-- name: Install commitizen
-  community.general.homebrew:
-    name: commitizen
-    state: present
 - name: Install helm
   community.general.homebrew:
     name: helm
