@@ -1,0 +1,7 @@
+---
+- name: Install postgresql client 12
+  become: yes
+  apt:
+    name: postgresql-client-12
+    state: present
+    update_cache: yes
