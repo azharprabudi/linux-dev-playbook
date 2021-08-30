@@ -1,0 +1,35 @@
+---
+- name: Install network-manager l2tp
+  become: yes
+  apt:
+    name: network-manager-l2tp
+    state: present
+    update_cache: yes
+    
+- name: Install network-manager l2tp gnome
+  become: yes
+  apt:
+    name: network-manager-l2tp-gnome
+    state: present
+    update_cache: yes
+
+- name: Install openvpn
+  become: yes
+  apt:
+    name: openvpn
+    state: present
+    update_cache: yes
+
+- name: Install network-manager openvpn
+  become: yes
+  apt:
+    name: network-manager-openvpn
+    state: present
+    update_cache: yes
+    
+- name: Install network-manager openvpn gnome
+  become: yes
+  apt:
+    name: network-manager-openvpn-gnome
+    state: present
+    update_cache: yes
