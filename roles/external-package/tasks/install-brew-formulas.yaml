@@ -130,4 +130,15 @@
   community.general.homebrew:
     name: hashicorp/tap/terraform-ls
     state: present
-
+- name: Install vault
+  community.general.homebrew:
+    name: vault
+    state: present
+- name: Install vault-cli
+  community.general.homebrew:
+    name: vault-cli
+    state: present
+- name: Install mockery
+  community.general.homebrew:
+    name: mockery
+    state: present
