@@ -42,9 +42,9 @@
   community.general.homebrew:
     name: fzf
     state: present
-- name: Install terraform
+- name: Install tfenv
   community.general.homebrew:
-    name: terraform
+    name: tfenv
     state: present
 - name: Install ko
   community.general.homebrew:
