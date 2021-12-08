@@ -142,3 +142,7 @@
   community.general.homebrew:
     name: mockery
     state: present
+- name: Install awscli
+  community.general.homebrew:
+    name: awscli
+    state: present
