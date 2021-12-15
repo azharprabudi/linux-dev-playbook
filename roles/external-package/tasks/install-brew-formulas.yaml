@@ -146,3 +146,7 @@
   community.general.homebrew:
     name: awscli
     state: present
+- name: Install cilium-cli
+  community.general.homebrew:
+    name: cilium-cli
+    state: present
