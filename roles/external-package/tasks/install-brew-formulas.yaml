@@ -150,3 +150,12 @@
   community.general.homebrew:
     name: cilium-cli
     state: present
+- name: Install hey
+  community.general.homebrew:
+    name: hey
+    state: present
+- name: Install vegeta
+  community.general.homebrew:
+    name: vegeta
+    state: present
+ 
