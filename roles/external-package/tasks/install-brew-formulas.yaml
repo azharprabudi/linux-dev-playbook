@@ -158,4 +158,7 @@
   community.general.homebrew:
     name: vegeta
     state: present
- 
+ - name: Install istioctl
+  community.general.homebrew:
+    name: istioctl
+    state: present
