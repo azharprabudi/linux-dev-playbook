@@ -162,3 +162,5 @@
   community.general.homebrew:
     name: istioctl
     state: present
+    install_options:
+      - --build-from-source
