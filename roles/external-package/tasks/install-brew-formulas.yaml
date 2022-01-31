@@ -162,3 +162,8 @@
   community.general.homebrew:
     name: terraform-docs
     state: present
+- name: Install act
+  community.general.homebrew:
+    name: act
+    state: present
+
