@@ -166,4 +166,7 @@
   community.general.homebrew:
     name: act
     state: present
-
+- name: Install cue-lang/tap/cue
+  community.general.homebrew:
+    name: cue-lang/tap/cue
+    state: present
